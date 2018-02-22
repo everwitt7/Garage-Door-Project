@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<body onload = "toLogin()">
+
+
+    <!-- /Users/Everwitt/Desktpo/WashU /Fall 17/CSE 222S - Siever/Assignment 2/loginpage.css -->
+
+    <div id="login-main-page" >
+        <head>
+            <meta charset="utf-8">
+
+            <title>Garage Opener Login</title>
+            <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        </head>
+
+        <body>
+            <h1 id="mainmessage">Login</h1>
+            <hr />
+
+            <h2 id = "username-login">Username:</h2>
+            <div><input id="usernamelogin" type="text" size = "30" value="scotthom@wustl.edu"/></div>
+
+            <h2 id = "password-login">Password:</h2>
+            <div><input id="passwordlogin" type="password" size = "30" value="everettscott"/></div>
+
+            <br />
+
+            <input id="submit-button" type="submit" value="Login" />
+        </body>
+    </div>
+
+
+    <div id="control-screen-main-page" >
+        <head>
+            <meta charset="utf-8">
+            <title>Status and Control Screen</title>
+
+            <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        </head>
+
+        <body>
+
+            <h1 id="mainscreen">Status and Control Screen</h1>
+            <hr />
+
+            <h2 id="open-doors">Select Doors you want Open:</h2>
+
+            <div id="blah">
+                <label id="door-one">Door One
+                    <input id="door-control"type="submit" name="open" value="Open" />
+                </label>
+
+                <div id="controls">
+                    <br>
+                    <br>
+                    <input id="open-control"type="submit" name="fully-opened" value="Fully Opened" />
+                    <br>
+                    <br>
+                    <input id="close-control"type="submit" name="fully-closed" value="Fully Closed" />
+                    <br>
+                    <br>
+                    <input id="fault-control"type="submit" name="door-faulted" value="Fault" />
+                </div>
+
+                <br />
+
+                <div >
+                    <p id = "indicator">Status: Closed</p>
+
+                </div>
+
+                <img id="closed-image" src="https://thumbs.dreamstime.com/t/close-up-very-big-garage-door-text-closed-sprayed-29820570.jpg" >
+                <img id="changing-image" src="http://www.garagedoorrepairconcord.com/images/door6.jpg" >
+                <img id="opened-image" src="http://cdn2.hubspot.net/hub/302979/file-1565141226-jpg/images/open_gd.jpg" >
+
+                <br />
+
+            </div>
+
+
+            <br>
+            <hr>
+
+            <div class="morebuttons">
+                <button id="to-timer-page">Timer</button>
+                <button id="to-login-again">Logout</button>
+            </div>
+
+        </body>
+
+    </div>
+
+    <div id="timer-page" >
+        <head>
+            <meta charset="utf-8">
+            <title>Timer Screen</title>
+
+            <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        </head>
+
+        <body>
+
+            <h2 id="auto-close">Auto-Close Feature:</h2>
+            <input id="autofeature" type="submit" value="Disable" />
+            <div>
+                <h3 id="timer">Type Number of Seconds:<br /><input type="text" id = "timersetbox" size = "30" onkeypress="return event.charCode >= 48 && event.charCode <=57"/ ></h3>
+            </div>
+            <input id="timer-button" type="submit" value="Submit" />
+
+            <button id="to-control-again">Back to Control</button>
+
+        </body>
+
+    </div>
+
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/particle-api-js/5/particle.min.js"></script>
+</body> <!--end of on load body-->
+<script src ="js/index.js"> </script>
+
+</html>

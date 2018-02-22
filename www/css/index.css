@@ -1,0 +1,158 @@
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+.morebuttons {
+    position: relative;
+    left: 140px;
+}
+body {
+background-color: black;
+}
+#mainmessage {
+  color: white;
+  margin-left: 40%;
+}
+#username {
+  color: white;
+  margin-left: 40%;
+}
+#username-login {
+    color: white;
+    margin-left: 40%;
+}
+#usernamelogin{
+    margin-left: 40%;
+}
+#passwordlogin{
+    margin-left: 40%;
+}
+#password {
+  color: white;
+  margin-left: 40%;
+}
+#password-login {
+  color: white;
+  margin-left: 40%;
+}
+#newUser {
+  color: black;
+}
+#forgottenUser {
+  color: black;
+}
+#links{
+  margin-left: 40%;
+}
+#mainscreen{
+    color: white;
+    margin-left: 35%;
+}
+#door-one{
+    color: white;
+}
+#controls {
+    position: relative;
+    right: 60px;
+}
+#open-doors{
+    color: white;
+    margin-left: 35%;
+}
+.door-two{
+    color: white;
+}
+#auto-close{
+  display: inline;
+    color: white;
+    margin-left: 35%;
+}
+#timer{
+    color: white;
+    margin-left: 35%;
+}
+#timer-button {
+    margin-left: 35%;
+}
+#go-to-login {
+    margin-left: 2%;
+}
+#blah{
+    margin-left: 47%;
+}
+#mainmessage-two {
+    color: white;
+    margin-left: 40%;
+}
+#submit-button{
+  height:75px;
+  width: 100px;
+  margin-left: 40%;
+}
+#password-confirmation {
+    color: white;
+    margin-left: 40%;
+}
+#phone-number {
+    color: white;
+    margin-left: 40%;
+}
+#id-number {
+    color: white;
+    margin-left: 40%;
+}
+#titleText{
+    color: white;
+    margin-left: 35%;
+}
+#page{
+    color: white;
+    margin-left: 35%;
+}
+#indicator{
+  color: pink;
+  height: 25px;
+  width: 30px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+#closed-image {
+    width: 100px;
+    margin-top: 2%;
+    visibility: visible;
+}
+#opened-image{
+    width: 100px;
+    margin-top: 2%;
+}
+#changing-image{
+    width: 100px;
+    margin-top: 2%;
+}
+#userTextBox{
+    margin-left: 40%;
+}
+#passTextBox {
+    margin-left: 40%;
+}
+#passConfTextBox{
+    margin-left: 40%;
+}
+#phoneNumb{
+    margin-left: 40%;
+}
+#idNumb{
+    margin-left: 40%;
+}
+#create-account-button{
+    margin-left: 40%;
+}
